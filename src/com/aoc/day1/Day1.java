@@ -35,7 +35,7 @@ public class Day1 {
         return answer;
     }
 
-    public int part1 (ArrayList < String > lines) {
+    public int part1(ArrayList<String> lines) {
         HashSet<Integer> numbers = cleanInput(lines);
         return solve(numbers, 2);
     }
