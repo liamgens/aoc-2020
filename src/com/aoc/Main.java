@@ -2,6 +2,7 @@ package com.aoc;
 
 import com.aoc.day1.Day1;
 import com.aoc.day2.Day2;
+import com.aoc.day3.Day3;
 
 import java.io.BufferedReader;
 import java.io.FileReader;
@@ -26,9 +27,10 @@ public class Main {
 
     public static void main(String[] args) {
         Main m = new Main();
-        ArrayList<String> lines = m.parseFile(2);
-        Day2 day2 = new Day2();
-        System.out.println(day2.part1(lines));
-        System.out.println(day2.part2(lines));
+        ArrayList<String> lines = m.parseFile(3);
+        Day3 day3 = new Day3(lines);
+        System.out.println(day3.part1());
+        System.out.println(day3.part2());
+
     }
 }
