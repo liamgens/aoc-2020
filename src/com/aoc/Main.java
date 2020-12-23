@@ -31,7 +31,7 @@ public class Main {
         Main m = new Main();
         ArrayList <String> lines = m.parseFile(12);
         Day12 day12 = new Day12(lines);
-        System.out.printf("Part 1: %d\n", day12.part1());
-//        System.out.printf("Part 2: %d", day11.part2());
+//        System.out.printf("Part 1: %d\n", day12.part1());
+        System.out.printf("Part 2: %d", day12.part2());
     }
 }
